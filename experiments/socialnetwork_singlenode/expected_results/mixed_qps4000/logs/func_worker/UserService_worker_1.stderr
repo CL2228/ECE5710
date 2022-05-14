@@ -1,0 +1,23 @@
+I1207 09:43:19.291638 Main     thread.cpp:100] Register main thread: tid=38604
+I1207 09:43:19.291700 Main     func_worker.cpp:51] My client_id is 34
+[2020-12-07 09:43:19.300025] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 09:43:19.300265] <info>: (UserHandler.h:998:GetMachineId) mac_hash=647
+I1207 09:43:19.313504 Main     func_config.cpp:135] Load configuration for function SocialGraphService[1]
+I1207 09:43:19.313523 Main     func_config.cpp:135] Load configuration for function ComposePostService[2]
+I1207 09:43:19.313529 Main     func_config.cpp:135] Load configuration for function PostStorageService[3]
+I1207 09:43:19.313535 Main     func_config.cpp:135] Load configuration for function UserTimelineService[4]
+I1207 09:43:19.313540 Main     func_config.cpp:135] Load configuration for function UrlShortenService[5]
+I1207 09:43:19.313549 Main     func_config.cpp:135] Load configuration for function UserService[6]
+I1207 09:43:19.313554 Main     func_config.cpp:135] Load configuration for function MediaService[7]
+I1207 09:43:19.313559 Main     func_config.cpp:135] Load configuration for function TextService[8]
+I1207 09:43:19.313564 Main     func_config.cpp:135] Load configuration for function UniqueIdService[9]
+I1207 09:43:19.313569 Main     func_config.cpp:135] Load configuration for function UserMentionService[10]
+I1207 09:43:19.313574 Main     func_config.cpp:135] Load configuration for function HomeTimelineService[11]
+I1207 09:43:19.313698 Main     func_worker.cpp:118] Use extra pipes for messages
+I1207 09:43:19.313852 Main     func_worker.cpp:137] Handshake done
+[2020-12-07 09:43:19.313884] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 09:43:19.313902] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 09:43:19.313909] <info>: (UserHandler.h:137:UserHandler) machine_id=647
+[2020-12-07 09:44:22.159520] <info>: (ThriftClient.h:84:ThriftClient) Use FaaSWorker for thrift calls
+[2020-12-07 09:44:22.159557] <info>: (ClientPool.h:233:Pop) New social-graph client, total_client=1
+I1207 09:44:22.160500 Main     buffer_pool.h:25] BufferPool[Pipes]: Allocate new buffer, current buffer count is 1

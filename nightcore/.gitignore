@@ -1,0 +1,28 @@
+# Build related
+/build/
+/bin/
+/deps/out/
+/.release_time
+/.debug_time
+/worker/golang/build/
+/worker/nodejs/build/
+/worker/nodejs/node_modules/
+/worker/python/.release_time
+/worker/python/build/
+/worker/python/faas/_faas_native.*.so
+
+# Python related
+/worker/python/faas/__pycache__/
+
+# Examples related
+/examples/*/outputs
+/examples/c/*.so
+/examples/go/main
+/examples/node/node_modules
+
+# Editor related
+/.vscode/
+
+# Misc
+/tmp/
+/config.mk

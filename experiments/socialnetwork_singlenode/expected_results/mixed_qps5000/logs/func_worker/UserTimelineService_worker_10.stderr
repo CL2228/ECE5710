@@ -1,0 +1,21 @@
+I1207 10:02:33.813880 Main     thread.cpp:100] Register main thread: tid=58042
+I1207 10:02:33.814276 Main     func_worker.cpp:51] My client_id is 99
+[2020-12-07 10:02:33.854175] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+I1207 10:02:33.866602 Main     func_config.cpp:135] Load configuration for function SocialGraphService[1]
+I1207 10:02:33.866623 Main     func_config.cpp:135] Load configuration for function ComposePostService[2]
+I1207 10:02:33.866629 Main     func_config.cpp:135] Load configuration for function PostStorageService[3]
+I1207 10:02:33.866636 Main     func_config.cpp:135] Load configuration for function UserTimelineService[4]
+I1207 10:02:33.866641 Main     func_config.cpp:135] Load configuration for function UrlShortenService[5]
+I1207 10:02:33.868323 Main     func_config.cpp:135] Load configuration for function UserService[6]
+I1207 10:02:33.868360 Main     func_config.cpp:135] Load configuration for function MediaService[7]
+I1207 10:02:33.868375 Main     func_config.cpp:135] Load configuration for function TextService[8]
+I1207 10:02:33.868386 Main     func_config.cpp:135] Load configuration for function UniqueIdService[9]
+I1207 10:02:33.868392 Main     func_config.cpp:135] Load configuration for function UserMentionService[10]
+I1207 10:02:33.868397 Main     func_config.cpp:135] Load configuration for function HomeTimelineService[11]
+I1207 10:02:33.868816 Main     func_worker.cpp:118] Use extra pipes for messages
+I1207 10:02:33.869583 Main     func_worker.cpp:137] Handshake done
+[2020-12-07 10:02:33.869615] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 10:02:33.870679] <info>: (ClientPool.h:233:Pop) New user-timeline-redis client, total_client=1
+[2020-12-07 10:02:33.878729] <info>: (ThriftClient.h:84:ThriftClient) Use FaaSWorker for thrift calls
+[2020-12-07 10:02:33.878759] <info>: (ClientPool.h:233:Pop) New post-storage-client client, total_client=1
+I1207 10:02:33.880418 Main     buffer_pool.h:25] BufferPool[Pipes]: Allocate new buffer, current buffer count is 1

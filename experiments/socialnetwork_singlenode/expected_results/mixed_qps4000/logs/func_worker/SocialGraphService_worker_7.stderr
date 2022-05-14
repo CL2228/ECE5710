@@ -1,0 +1,22 @@
+I1207 09:44:22.364698 Main     thread.cpp:100] Register main thread: tid=39164
+I1207 09:44:22.364743 Main     func_worker.cpp:51] My client_id is 64
+[2020-12-07 09:44:22.370089] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+I1207 09:44:22.373144 Main     func_config.cpp:135] Load configuration for function SocialGraphService[1]
+I1207 09:44:22.373164 Main     func_config.cpp:135] Load configuration for function ComposePostService[2]
+I1207 09:44:22.373169 Main     func_config.cpp:135] Load configuration for function PostStorageService[3]
+I1207 09:44:22.373172 Main     func_config.cpp:135] Load configuration for function UserTimelineService[4]
+I1207 09:44:22.373175 Main     func_config.cpp:135] Load configuration for function UrlShortenService[5]
+I1207 09:44:22.373178 Main     func_config.cpp:135] Load configuration for function UserService[6]
+I1207 09:44:22.373181 Main     func_config.cpp:135] Load configuration for function MediaService[7]
+I1207 09:44:22.373185 Main     func_config.cpp:135] Load configuration for function TextService[8]
+I1207 09:44:22.373190 Main     func_config.cpp:135] Load configuration for function UniqueIdService[9]
+I1207 09:44:22.373193 Main     func_config.cpp:135] Load configuration for function UserMentionService[10]
+I1207 09:44:22.373196 Main     func_config.cpp:135] Load configuration for function HomeTimelineService[11]
+I1207 09:44:22.373216 Main     func_worker.cpp:118] Use extra pipes for messages
+I1207 09:44:22.373387 Main     func_worker.cpp:137] Handshake done
+[2020-12-07 09:44:22.373408] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 09:44:22.816150] <info>: (ThriftClient.h:84:ThriftClient) Use FaaSWorker for thrift calls
+[2020-12-07 09:44:22.816183] <info>: (ClientPool.h:233:Pop) New social-graph client, total_client=1
+I1207 09:44:22.817919 Main     buffer_pool.h:25] BufferPool[Pipes]: Allocate new buffer, current buffer count is 1
+I1207 09:44:22.818221 Main     buffer_pool.h:25] BufferPool[Pipes]: Allocate new buffer, current buffer count is 2
+[2020-12-07 09:44:22.819113] <info>: (ClientPool.h:233:Pop) New redis client, total_client=1

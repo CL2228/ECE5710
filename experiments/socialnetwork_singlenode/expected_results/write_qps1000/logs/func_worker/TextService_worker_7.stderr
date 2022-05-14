@@ -1,0 +1,27 @@
+I1207 09:13:55.806688 Main     thread.cpp:100] Register main thread: tid=5395
+I1207 09:13:55.806745 Main     func_worker.cpp:51] My client_id is 78
+I1207 09:13:55.811631 Main     func_config.cpp:135] Load configuration for function SocialGraphService[1]
+I1207 09:13:55.811647 Main     func_config.cpp:135] Load configuration for function ComposePostService[2]
+I1207 09:13:55.811652 Main     func_config.cpp:135] Load configuration for function PostStorageService[3]
+I1207 09:13:55.811658 Main     func_config.cpp:135] Load configuration for function UserTimelineService[4]
+I1207 09:13:55.811663 Main     func_config.cpp:135] Load configuration for function UrlShortenService[5]
+I1207 09:13:55.811668 Main     func_config.cpp:135] Load configuration for function UserService[6]
+I1207 09:13:55.811673 Main     func_config.cpp:135] Load configuration for function MediaService[7]
+I1207 09:13:55.811681 Main     func_config.cpp:135] Load configuration for function TextService[8]
+I1207 09:13:55.811685 Main     func_config.cpp:135] Load configuration for function UniqueIdService[9]
+I1207 09:13:55.811690 Main     func_config.cpp:135] Load configuration for function UserMentionService[10]
+I1207 09:13:55.811695 Main     func_config.cpp:135] Load configuration for function HomeTimelineService[11]
+I1207 09:13:55.821522 Main     func_worker.cpp:118] Use extra pipes for messages
+I1207 09:13:55.821688 Main     func_worker.cpp:137] Handshake done
+[2020-12-07 09:13:55.821742] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 09:13:55.821854] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 09:13:55.821867] <info>: (ClientPool.h:195:ClientPool) Max pool size: 128
+[2020-12-07 09:13:55.822116] <info>: (ThriftClient.h:84:ThriftClient) Use FaaSWorker for thrift calls
+[2020-12-07 09:13:55.822131] <info>: (ClientPool.h:233:Pop) New url-shorten-service client, total_client=1
+I1207 09:13:55.823666 Main     buffer_pool.h:25] BufferPool[Pipes]: Allocate new buffer, current buffer count is 1
+[2020-12-07 09:13:55.823695] <info>: (ThriftClient.h:84:ThriftClient) Use FaaSWorker for thrift calls
+[2020-12-07 09:13:55.823716] <info>: (ClientPool.h:233:Pop) New user-mention-service client, total_client=1
+I1207 09:13:55.824710 Main     buffer_pool.h:25] BufferPool[Pipes]: Allocate new buffer, current buffer count is 2
+[2020-12-07 09:13:55.824952] <info>: (ThriftClient.h:84:ThriftClient) Use FaaSWorker for thrift calls
+[2020-12-07 09:13:55.825253] <info>: (ClientPool.h:233:Pop) New compose-post client, total_client=1
+I1207 09:13:55.827724 Main     buffer_pool.h:25] BufferPool[Pipes]: Allocate new buffer, current buffer count is 3

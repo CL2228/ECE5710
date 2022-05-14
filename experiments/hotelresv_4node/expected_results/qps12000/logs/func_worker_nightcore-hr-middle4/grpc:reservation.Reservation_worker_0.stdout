@@ -1,2 +1,0 @@
-reservation db ip addr = mongodb-hotelresv:27017
-reservation memc addr port = memcached-reserve:11211
